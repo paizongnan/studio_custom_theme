@@ -1,0 +1,244 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": { "type": "text", "settings": { "text": "{{ product.vendor }}", "text_style": "uppercase" } },
+        "title": { "type": "title", "settings": {} },
+        "price": { "type": "price", "settings": {} },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": { "picker_type": "button", "swatch_shape": "circle" }
+        },
+        "quantity_selector": { "type": "quantity_selector", "settings": {} },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": { "show_dynamic_checkout": true, "show_gift_card_recipient": true }
+        },
+        "share": { "type": "share", "settings": { "share_label": "Share" } },
+        "description": { "type": "description", "settings": {} }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "share",
+        "description"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "fill",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_XJKiWr": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_LE4JdD": {
+          "type": "column",
+          "settings": {
+            "title": "Shipping",
+            "text": "<p>Shipping rates are calculated by the size of the package and shipped via Canada Post within 10 business days.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bmXGGX": {
+          "type": "column",
+          "settings": {
+            "title": "Returns",
+            "text": "<p>All artworks can be returned in their original packaging and original condition within 14 days of receipt if it is not to your liking.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_LE4JdD",
+        "column_bmXGGX"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_NCzKAU": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_cGd7fY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ARTIST<\/p>",
+            "text_style": "body"
+          }
+        },
+        "heading_tjfTVb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Leia Bryans",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "text_cGd7fY",
+        "heading_tjfTVb"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sevenvessels2-2.webp",
+        "height": "small",
+        "desktop_image_width": "large",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_48kMDC": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_VLKarB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Leia Bryans is a self-taught artist working with painting, drawing, and illustration. Bryans' artistic practice experiments with the limitations of the feminine silhouette by creating a fluid, exaggerated form—while the everyday object gives rise to a quiet joy in the ordinary. Bryans maintains a studio practice based in Toronto, ON.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_VLKarB"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sevenvessels2-3.webp",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_KyKFHF": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "More by Leia",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "leia-bryans",
+        "products_to_show": 4,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_EabrqQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_jq44Ac": {
+          "type": "heading",
+          "settings": {
+            "heading": "Build your collection",
+            "heading_size": "h1"
+          }
+        },
+        "text_7FacE9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>All our pieces are carefully chosen to reflect a cohesive, contemporary aesthetic. Simply mix and match to create your unique gallery wall.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jq44Ac",
+        "text_7FacE9"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Frame_1.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h1",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    }
+  },
+  "order": ["main", "multicolumn_XJKiWr", "image_with_text_NCzKAU", "image_with_text_48kMDC", "featured_collection_KyKFHF", "image_with_text_EabrqQ", "related-products"]
+}

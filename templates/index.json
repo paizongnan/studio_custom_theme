@@ -1,0 +1,389 @@
+{
+  "sections": {
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": { "type": "heading", "settings": { "heading": "A curated selection of exceptional art by emerging talent.", "heading_size": "h1" } }
+      },
+      "block_order": ["heading"],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 52
+      }
+    },
+    "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "slide-0": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/slide_1.webp",
+              "heading": "",
+              "heading_size": "medium",
+              "subheading": "",
+              "button_label": "",
+              "link": "",
+              "button_style_secondary": false,
+              "box_align": "middle-center",
+              "show_text_box": false,
+              "text_alignment": "center",
+              "image_overlay_opacity": 0,
+              "color_scheme": "scheme-1",
+              "text_alignment_mobile": "center"
+            }
+          },
+          "slide_LJqTkL": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/slide_2.webp",
+              "heading": "",
+              "heading_size": "h1",
+              "subheading": "",
+              "button_label": "",
+              "link": "",
+              "button_style_secondary": false,
+              "box_align": "middle-center",
+              "show_text_box": false,
+              "text_alignment": "center",
+              "image_overlay_opacity": 0,
+              "color_scheme": "scheme-1",
+              "text_alignment_mobile": "center"
+            }
+          },
+          "slide_TyT9nx": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/slide_3.webp",
+              "heading": "",
+              "heading_size": "h1",
+              "subheading": "",
+              "button_label": "",
+              "link": "",
+              "button_style_secondary": false,
+              "box_align": "middle-center",
+              "show_text_box": false,
+              "text_alignment": "center",
+              "image_overlay_opacity": 0,
+              "color_scheme": "scheme-1",
+              "text_alignment_mobile": "center"
+            }
+          }
+        },
+        "block_order": [
+          "slide-0",
+          "slide_LJqTkL",
+          "slide_TyT9nx"
+        ],
+        "settings": {
+          "layout": "grid",
+          "slide_height": "small",
+          "slider_visual": "dots",
+          "auto_rotate": true,
+          "change_slides_speed": 3,
+          "image_behavior": "none",
+          "show_text_below": false,
+          "accessibility_info": "Slideshow about our brand."
+        }
+    },
+    "rich-text-1": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": { "type": "heading", "settings": { "heading": "Explore our newest pieces", "heading_size": "h2" } }
+      },
+      "block_order": ["heading"],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "padding_top": 56,
+        "padding_bottom": 0
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "leia-bryans",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": { "heading": "Each piece is chosen to reflect a cohesive, contemporary aesthetic.", "heading_size": "h1" }
+        }
+      },
+      "block_order": ["heading"],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_with_text-small.webp",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": { "type": "heading", "settings": { "heading": "Build or enhance your collection", "heading_size": "h2" } },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": ["heading", "button"],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_with_text-large.webp",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 56
+      }
+    },
+    "rich_text_HMQ8gV": {
+        "type": "rich-text",
+        "blocks": {
+          "text_TaqdVY": {
+            "type": "text",
+            "settings": {
+              "text": "<p>SHOP BY ARTIST<\/p>"
+            }
+          },
+          "heading_wRUxTB": {
+            "type": "heading",
+            "settings": {
+              "heading": "Inspired collections that complement your space and style.",
+              "heading_size": "h1"
+            }
+          }
+        },
+        "block_order": [
+          "text_TaqdVY",
+          "heading_wRUxTB"
+        ],
+        "settings": {
+          "desktop_content_position": "center",
+          "content_alignment": "center",
+          "color_scheme": "scheme-3",
+          "full_width": true,
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+    },
+    "collection_list_bpQwra": {
+        "type": "collection-list",
+        "blocks": {
+          "featured_collection_9ddzNr": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "rachel-crummey"
+            }
+          },
+          "featured_collection_TeGpW7": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "leia-bryans"
+            }
+          },
+          "featured_collection_cAYMyQ": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "melanie-keay"
+            }
+          },
+          "featured_collection_xGAwbX": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "sid-hicks"
+            }
+          }
+        },
+        "block_order": [
+          "featured_collection_9ddzNr",
+          "featured_collection_TeGpW7",
+          "featured_collection_cAYMyQ",
+          "featured_collection_xGAwbX"
+        ],
+        "settings": {
+          "title": "",
+          "heading_size": "h0",
+          "image_ratio": "square",
+          "columns_desktop": 2,
+          "color_scheme": "scheme-3",
+          "show_view_all": false,
+          "columns_mobile": "1",
+          "swipe_on_mobile": false,
+          "padding_top": 36,
+          "padding_bottom": 36
+        }
+    },
+    "multicolumn_G6AiKP": {
+        "type": "multicolumn",
+        "blocks": {
+          "column_z7G6j8": {
+            "type": "column",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Frame_7144.webp",
+              "title": "",
+              "text": "",
+              "link_label": "",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "column_z7G6j8"
+        ],
+        "settings": {
+          "title": "",
+          "heading_size": "h1",
+          "image_width": "half",
+          "image_ratio": "adapt",
+          "columns_desktop": 1,
+          "column_alignment": "center",
+          "background_style": "none",
+          "button_label": "",
+          "button_link": "",
+          "color_scheme": "scheme-1",
+          "columns_mobile": "1",
+          "swipe_on_mobile": false,
+          "padding_top": 36,
+          "padding_bottom": 36
+        }
+    },
+    "newsletter_3RqqwP": {
+        "type": "newsletter",
+        "blocks": {
+          "heading_g8QFJM": {
+            "type": "heading",
+            "settings": {
+              "heading": "Be the first to know",
+              "heading_size": "h1"
+            }
+          },
+          "paragraph_bKQxej": {
+            "type": "paragraph",
+            "settings": {
+              "text": "<p>Join our email list to learn about exclusive showings and new collections.<\/p>"
+            }
+          },
+          "email_form_nY3zYU": {
+            "type": "email_form",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "heading_g8QFJM",
+          "paragraph_bKQxej",
+          "email_form_nY3zYU"
+        ],
+        "settings": {
+          "color_scheme": "",
+          "full_width": true,
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+    },
+    "image-with-text-2": {
+        "type": "image-with-text",
+        "blocks": {
+          "heading": {
+            "type": "heading",
+            "settings": { "heading": "We offer a highly curated selection, so buyers are not overwhelmed by choice. Our collection is updated frequently with new works by current and incoming artists but quality, not quantity, is our focus.", "heading_size": "h2" }
+            },
+            "text_pDpfGd": {
+                "type": "text",
+                "settings": {
+                  "text": "<p>ASHLEY MULVIHILL — FOUNDER<\/p>",
+                  "text_style": "body"
+                }
+            },
+            "button_cDmnBq": {
+                "type": "button",
+                "settings": {
+                  "button_label": "Read more",
+                  "button_link": "",
+                  "button_style_secondary": false
+                }
+            }
+        },
+        "block_order": ["heading", "text_pDpfGd", "button_cDmnBq"],
+        "settings": {
+          "image": "shopify:\/\/shop_images\/OriginalArtwork-8_1.webp",
+          "height": "adapt",
+          "desktop_image_width": "small",
+          "layout": "image_first",
+          "desktop_content_position": "bottom",
+          "desktop_content_alignment": "left",
+          "content_layout": "no-overlap",
+          "section_color_scheme": "scheme-1",
+          "color_scheme": "scheme-3",
+          "image_behavior": "none",
+          "mobile_content_alignment": "left",
+          "padding_top": 36,
+          "padding_bottom": 0
+        }
+      }
+  },
+  "order": [
+    "rich-text", 
+    "slideshow", 
+    "rich-text-1", 
+    "featured-collection", 
+    "image-with-text", 
+    "image-with-text-1", 
+    "rich_text_HMQ8gV", 
+    "collection_list_bpQwra", 
+    "multicolumn_G6AiKP",
+    "newsletter_3RqqwP",
+    "image-with-text-2"
+]
+}

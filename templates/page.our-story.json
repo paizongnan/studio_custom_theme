@@ -1,14 +1,158 @@
 {
-  "sections": {
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+    "sections": {
+      "main": {
+        "type": "main-page",
+        "disabled": true,
+        "settings": {
+          "padding_top": 36,
+          "padding_bottom": 0
+        }
+      },
+      "rich_text_tMHiYf": {
+        "type": "rich-text",
+        "blocks": {
+          "text_kzyiCw": {
+            "type": "text",
+            "settings": {
+              "text": "<p>OUR MISSION<\/p>"
+            }
+          },
+          "heading_iJYbqD": {
+            "type": "heading",
+            "settings": {
+              "heading": "We believe fine art should be available to everyone. We curate affordably priced pieces from the most exciting up-and-coming artists.",
+              "heading_size": "h1"
+            }
+          }
+        },
+        "block_order": [
+          "text_kzyiCw",
+          "heading_iJYbqD"
+        ],
+        "settings": {
+          "desktop_content_position": "center",
+          "content_alignment": "center",
+          "color_scheme": "",
+          "full_width": true,
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+      },
+      "image_with_text_wQKLpX": {
+        "type": "image-with-text",
+        "blocks": {
+          "text_bdBwt4": {
+            "type": "text",
+            "settings": {
+              "text": "<p>MEET THE FOUNDER<\/p>",
+              "text_style": "body"
+            }
+          },
+          "heading_FmGeGb": {
+            "type": "heading",
+            "settings": {
+              "heading": "Ashley Mulvihill",
+              "heading_size": "h1"
+            }
+          }
+        },
+        "block_order": [
+          "text_bdBwt4",
+          "heading_FmGeGb"
+        ],
+        "settings": {
+          "image": "shopify:\/\/shop_images\/our_story-1.webp",
+          "height": "large",
+          "desktop_image_width": "large",
+          "layout": "text_first",
+          "desktop_content_position": "bottom",
+          "desktop_content_alignment": "left",
+          "content_layout": "no-overlap",
+          "section_color_scheme": "",
+          "color_scheme": "",
+          "image_behavior": "none",
+          "mobile_content_alignment": "left",
+          "padding_top": 36,
+          "padding_bottom": 0
+        }
+      },
+      "image_with_text_zfFFxY": {
+        "type": "image-with-text",
+        "blocks": {
+          "text_tLMWMM": {
+            "type": "text",
+            "settings": {
+              "text": "<p>Ashley Mulvihill launched the gallery to bring engaging artwork by contemporary, emerging artists to a broader audience. Ashley strives to open up the world of art to new collectors and make them feel more comfortable building their collection with original works.<\/p><p>Fueled by a passion for working with emerging artists and motivated by the idea that everyone should have access to real art, Ninth Editions was launched to connect the two worlds.<\/p><p>Ashley has a decade of experience working in the art world both locally and internationally. She has worked with organizations like the Peggy Guggenheim Collection in Italy, England’s Queen Elizabeth Scholarship Trust, and continues to curate major exhibitions at Drake Hotel Properties in Toronto, as well as public art project across Canada.<\/p>",
+              "text_style": "body"
+            }
+          }
+        },
+        "block_order": [
+          "text_tLMWMM"
+        ],
+        "settings": {
+          "image": "shopify:\/\/shop_images\/our_story-2.webp",
+          "height": "adapt",
+          "desktop_image_width": "small",
+          "layout": "image_first",
+          "desktop_content_position": "top",
+          "desktop_content_alignment": "left",
+          "content_layout": "no-overlap",
+          "section_color_scheme": "",
+          "color_scheme": "",
+          "image_behavior": "none",
+          "mobile_content_alignment": "left",
+          "padding_top": 0,
+          "padding_bottom": 36
+        }
+      },
+      "rich_text_4jyePG": {
+        "type": "rich-text",
+        "blocks": {
+          "heading_rP8Nx8": {
+            "type": "heading",
+            "settings": {
+              "heading": "We would love to work with you.",
+              "heading_size": "h1"
+            }
+          },
+          "text_jWDMwU": {
+            "type": "text",
+            "settings": {
+              "text": "<p>If you are a new or seasoned collector, artist, potential partner, or simply curious about anything we do, please get in touch.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "heading_rP8Nx8",
+          "text_jWDMwU"
+        ],
+        "settings": {
+          "desktop_content_position": "center",
+          "content_alignment": "center",
+          "color_scheme": "",
+          "full_width": true,
+          "padding_top": 40,
+          "padding_bottom": 40
+        }
+      },
+      "form": {
+        "type": "contact-form",
+        "settings": {
+          "heading": "",
+          "heading_size": "h1",
+          "color_scheme": "scheme-1",
+          "padding_top": 0,
+          "padding_bottom": 68
+        }
       }
-    }
-  },
-  "order": [
-    "main"
-  ]
-}
+    },
+    "order": [
+      "main",
+      "rich_text_tMHiYf",
+      "image_with_text_wQKLpX",
+      "image_with_text_zfFFxY",
+      "rich_text_4jyePG",
+      "form"
+    ]
+  }

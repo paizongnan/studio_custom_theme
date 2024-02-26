@@ -2,7 +2,11 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
-      "settings": { "show_collection_description": false, "show_collection_image": false, "color_scheme": "scheme-1" }
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
     },
     "product-grid": {
       "type": "main-collection-product-grid",
@@ -25,5 +29,8 @@
       }
     }
   },
-  "order": ["banner", "product-grid"]
+  "order": [
+    "banner",
+    "product-grid"
+  ]
 }
